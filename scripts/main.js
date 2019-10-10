@@ -32,7 +32,7 @@ else {
     miTitulo.textContent = 'Piratas de ' + nombreAlmacenado ;
 }
 
-alert(screen.height);
+document.querySelector('body').setAttribute('height',screen.height);
 
 miBoton.onclick = function(){
     cambiarUsuario();
